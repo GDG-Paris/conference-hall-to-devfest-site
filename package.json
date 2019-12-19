@@ -1,0 +1,11 @@
+{
+  "name": "conference-hall-to-devfest-site",
+  "version": "1.0.0",
+  "description": "Transform conference hall json export to markdown DevFest site file",
+  "main": "index.js",
+  "author": "Benjamin <benjlacroix@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "url": "git@github.com:GDG-Paris/conference-hall-to-devfest-site.git"
+  }
+}
