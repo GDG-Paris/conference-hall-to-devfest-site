@@ -28,6 +28,7 @@ ${speaker.bio ? speaker.bio : ""}
 
   speakers.forEach(speaker => {
     fs.writeFileSync(`${baseOutputDir}/content/speakers/${speaker.key}.md`, speaker.content);
+    console.info(`🗣 Speaker ${speaker.key} parsed`);
   });
 
   return speakers;

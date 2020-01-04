@@ -39,6 +39,7 @@ ${talk.abstract}
 
   sessions.forEach(session => {
     fs.writeFileSync(`${baseOutputDir}/content/sessions/${session.key}.md`, session.content);
+    console.info(`🎤 Session ${session.key} parsed`)
   });
 };
 
